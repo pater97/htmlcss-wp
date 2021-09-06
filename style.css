@@ -7,6 +7,7 @@
 body{
     width: 80%;
     margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .clearfix::after {
     content: "";
@@ -14,11 +15,6 @@ body{
     clear: both;
 }
 /* debug */
-.debug .headcontent{
-    height: 80px;
-    margin-top: 20px;
-    background-color: blueviolet;
-}
 .debug .pt1{
     height: 300px;
     background-color: blue;
@@ -37,8 +33,20 @@ body{
 }
 /* header */
 .headcontent{
-    background-color: blueviolet;
     width: 100%;
+}
+header img{
+    width: 6rem;
+    display: block;
+}
+.navbar{
+    float: left;
+    margin-top: 2rem;
+    color: rgb(192, 192, 192);
+}
+.navbar > div{
+    float: left;
+    margin-right: 1rem;
 }
 /* main */
 .pt1{
