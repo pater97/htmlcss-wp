@@ -14,13 +14,6 @@ body{
     display: table;
     clear: both;
 }
-/* debug */
-
-}
-.debug #foot{
-    height: 30px;
-    background-color: purple;
-}
 /* header */
 .headcontent{
     width: 100%;
@@ -56,23 +49,26 @@ header img{
     padding-left: 3rem;
 }
 .txt1{
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     padding-top: 4rem;
     padding-right: 4rem;
     margin-top: 21rem;
-    width: 65%;
+    width: 63%;
 }
 .txt2{
     font-size: 1rem;
     width: 50%;
 }
 /* /.pt1 */
+.title > strong{
+    font-size: 2rem;
+}
 .div > strong {
     font-size: 1.6rem;
 }
 .paragrafo{
-    font-size: 0.8rem;
     color:rgb(192, 192, 192);
+    margin-bottom: 2rem;
 }
 .sideline{
     width: 24%;
@@ -89,6 +85,7 @@ header img{
     overflow: hidden;
     height: 12.7rem;
     border-radius: 1rem;
+    margin-bottom: 1rem;
 }
 .table  img{
     background-color:rgb(204, 204, 204) ;
@@ -96,8 +93,10 @@ header img{
 }
 .img1{
     width: 100%;
+    height: auto;
+    margin-top: -1rem;
 }
-.im2{
+.img2{
     height: auto;
     width: 33rem;
     margin-top: -5.9rem;
@@ -107,7 +106,16 @@ header img{
     height: 100%;
     margin-left: -4rem;
 }
+p{
+    color: rgb(192, 192, 192);
+    margin-top: 0.5rem;
+}
 /* footer */
 #foot{
-margin-bottom: 10px;
+margin-top: 10px;
+text-align: center;
+margin: 2rem;
+}
+#foot  span{
+    color: red;
 }
