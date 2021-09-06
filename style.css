@@ -39,6 +39,7 @@ header img{
     float: left;
     margin-top: 2rem;
     color: rgb(192, 192, 192);
+    font-size: 0.8rem;
 }
 .navbar > div{
     float: left;
@@ -46,23 +47,30 @@ header img{
 }
 /* main */
 .pt1{
-margin: 5rem 0;
-background-image: url(./img/banner.jpg);
-background-size: cover;
-height: 52rem;
-border-radius: 1rem;
-filter: brightness(0.8);
+    margin: 5rem 0;
+    background-image: url(./img/banner.jpg);
+    background-size: cover;
+    height: 35rem;
+    border-radius: 1rem;
+    background-color: lightgray;
+    background-blend-mode: multiply;
+}
+.txt1 , .txt2{
+    display: inline-block;
+    color: white;
+    padding-left: 3rem;
 }
 .txt1{
-    display: inline-block;
-    width: 60%;
-    font-size: 2.5rem;
-    padding: 4rem;
-    margin-top: 33rem;
-    color: white;
+    font-size: 1.7rem;
+    padding-top: 4rem;
+    padding-right: 4rem;
+    margin-top: 21rem;
+    width: 65%;
 }
+.txt2{
+    font-size: 1rem;
+    width: 50%;
 }
-
 /* /.pt1 */
 .sideline{
     width: 15%;
